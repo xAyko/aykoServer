@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 
-app.get('testaytko.js', function(request, response) {
+app.get('aykoserver', function(request, response) {
   console.log('Works!');
   response.send('It works!');
 });
